@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header{
+    background-color: #F5DEB3;
+}
+
+.pesquisa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex-wrap: wrap;
+}
+
+.pesquisa .ynfuan{
+    width: 125px;
+    height: 125px;
+}
+
+.pesquisa .botao{
+    background-color: #D2B48C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.ofertaDia h1{
+    font-size: 15px;
+    margin: 5px;
+}
+
+main .ofertaDia .ofertas div{
+    width: auto;
+    display: inline-block;
+    margin: 20px;
+    padding: 60px;
+    border: solid black;
+    border-radius: 25px;
+}
+
+main .ofertaDia .ofertas img{
+    width: 150px;
+    height: 150px;
+}
+
+main .ofertaDia .ofertas .botwm{
+    border-radius: 10px;
+    background-color: wheat;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* Aqui começa o css da pagina de mapas */
+
+.caixa {
+    width: 90%;
+    margin: 120px auto 40px auto;
+    background-color: #eeedae;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    padding: 20px;
+}
+
+.europ {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+}
+  
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}  
